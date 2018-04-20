@@ -1,0 +1,57 @@
+div.gallery a.gallary-item {
+    min-height: 200px;
+    background-color: #f9f9f9;
+    padding: 0;
+    margin-bottom: 50px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #222;
+}
+
+a.gallary-item:hover {
+    cursor: zoom-in;
+    transform: scale(1.02);
+}
+
+a.gallary-item .gallary-item-hover {
+    display: none;
+}
+
+a.gallary-item:hover .gallary-item-hover {
+    //display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(51, 51, 51, 0.75);
+}
+
+.gallary-item span {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #f9f9f9;
+    font-size: 25px;
+    text-shadow:
+        -1px -1px 0 #333,
+        1px -1px 0 #333,
+        -1px 1px 0 #333,
+        1px 1px 0 #333;  
+}
+
+.gallary-video-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    align-items: center;
+}
+
+.gallary-video-container video {
+    min-width: 100%;
+    min-height: 100%;
+}

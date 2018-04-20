@@ -1,0 +1,9 @@
+div.section {
+    min-height: 100vh;
+    padding: 75px 35px;
+}
+
+div.main {
+    background: none;
+    padding: 0;
+}

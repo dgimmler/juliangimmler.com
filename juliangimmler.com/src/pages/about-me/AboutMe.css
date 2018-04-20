@@ -1,0 +1,31 @@
+.about-me {
+    background: #12337c;
+}
+
+.about-me h3, .about-me h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about-me h3 {
+    margin-bottom: 50px;
+}
+
+.about-me p {
+    clear: left;
+}
+
+.about-me-social {
+    margin-top: 75px;
+    border: 1px solid #666;
+    padding: 15px;
+}
+
+.about-me-social h4 {
+    letter-spacing: 1.5px;
+    line-height: 1.5em;
+    margin-bottom: 25px;
+}
+
+.about-me-social .fa {
+    font-size: 50px;
+}

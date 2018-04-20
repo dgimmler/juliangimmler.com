@@ -1,0 +1,38 @@
+.blog-filter.hidden-xs {
+    text-align: right;
+}
+
+.blog-filter.visible-xs {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.blog-filter h4 {
+    margin-top: 25px;
+    letter-spacing: 1.5px;
+}
+
+input {
+    width: 80%;
+}
+
+span.add-filter-btn {
+    width: 10%;
+    color: #0D9AF1;
+    padding: 10px;
+    font-size: 15px;
+}
+
+span.add-filter-btn:hover {
+    transform: scale(1.2);
+}
+
+div.filter-tags h4 {
+    color: #0D9AF1;
+    margin-top: 10px;
+}
+
+div.filter-tags h4:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}

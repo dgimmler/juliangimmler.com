@@ -1,0 +1,30 @@
+div.media {
+    background-color: #12337c;
+    margin-top: 0;
+}
+
+.media .divider-line {
+    border-bottom: 2px solid #f9f9f9;
+}
+
+.filters {
+    margin-top: 50px;
+}
+
+.gallery {
+    margin-top: 50px;
+}
+
+.pop-up-btn h4 {
+    letter-spacing: 1.5px;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+
+.pop-up-btn:active h4 {
+    box-shadow: none;
+}
+
+.media h3 {
+    margin-bottom: 50px;
+}

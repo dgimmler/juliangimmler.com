@@ -1,0 +1,95 @@
+.blog-post {
+    clear: left;
+    margin-top: 50px;
+    border-bottom: 2px solid #0D9AF1;
+    background: #fff;
+    padding: 25px;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+
+div.post-header {
+    padding: 0 50px 0 0;
+    margin-bottom: 50px;
+}
+
+div.post-header.hidden-xs {
+    text-align: right;
+}
+
+div.post-header.visible-sm {
+    text-align: left;
+}
+
+div.post-header.visible-xs {
+    text-align: left;
+    margin-left: 15px;
+    padding: 0;
+}
+
+div.post-header.visible-xs h4 {
+    font-size: 12px;
+}
+
+.blog-post h4 {
+    letter-spacing: 3px;
+    word-wrap: break-word;
+}
+
+div.post-content {
+    min-height:300px;
+    margin: 0px 25px 50px 0px;
+}
+
+.preview div.post-content.hidden-xs {
+    max-height: 750px;
+}
+
+.preview div.post-content.visible-xs {
+    max-height: 1200px;
+}
+
+.expanded div.post-content.hidden-xs, .expaned div.post-content.visible-xs {
+    -webkit-transition: all 600ms;
+    transition: all 2000ms;
+}
+
+div.post-content p {
+    text-transform: none;
+    margin-bottom: 25px;
+}
+
+.read-more, .read-less {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    color: #0D9AF1;
+    background: #fff;
+    //border-top: 1px dashed #0D9AF1;
+}
+
+div.read-more > h4, div.read-less > h4 {
+    color: #0D9AF1;
+}
+
+.read-more:hover, .read-less:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.expanded .read-more {
+    display: none;
+}
+
+.preview .read-less {
+    display: none;
+}
+
+.body-html {
+    margin-top: 25px;
+}

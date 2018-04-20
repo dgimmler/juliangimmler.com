@@ -1,0 +1,147 @@
+div.blog.section {
+    background: #fff;
+    padding: 50px 25px 0 25px;
+}
+
+.blog h1,.blog h2,.blog h3,.blog h4,.blog p {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.blog h3 {
+    //text-shadow: 2px 2px 3px #333;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+div.right-column {
+    background: #0D9AF1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 5px;
+    height: 100%;
+    width: 14%;
+}
+
+.tags h4 {
+    color: #0D9AF1;
+}
+
+.tags h4:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.video-container {
+    background: #000;
+    display: flex;
+    height: auto;
+    max-height: 500px;
+    width: auto;
+}
+
+video {
+    margin-bottom: -5px;
+}
+
+video.visible-xs {
+    margin-top: 25px;
+}
+
+.get-more, .posts-page, .previous-posts {
+    color: #f9f9f9;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+
+.get-more {
+    bottom: 10px;
+}
+
+div.get-more h4, div.previous-posts h4, div.posts-page h4 {
+    color: #f9f9f9;
+    letter-spacing: 3px;
+}
+
+.bottom-column div.get-more h4, .bottom-column div.previous-posts h4, .bottom-column div.posts-page h4 {
+    font-size: 12px;
+}
+
+.bottom-column div.get-more, .bottom-column div.previous-posts {
+    max-width: 100px;
+    text-align: center;
+}
+
+.bottom-column div.get-more {
+    margin-right: -15px;
+}
+
+.bottom-column div.previous-posts {
+    margin-right: -75px;
+}
+
+.get-more:hover, .previous-posts:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 20px #f9f9f9;
+    cursor: pointer;
+}
+
+.posts-page{
+    top: 10px;
+}
+
+div.posts-page h4 {
+    color: #f9f9f9;
+}
+
+.previous-posts {
+    bottom: 75px;
+}
+
+.bottom-column {
+    background: #0D9AF1;
+    height: 125px;
+    width: calc(100% + 50px);
+    float: left;
+    margin-left: -25px;
+    padding: 5px;
+}
+
+.bottom-column .posts-page {
+    width: 10%;
+    position: relative;
+    margin: auto 50px;
+}
+
+.bottom-column div.posts-page > h4 {
+    margin: 25px auto;
+}
+
+.bottom-column .previous-posts{
+    width: 150px;
+    right: 150px;
+    bottom: 50px;
+}
+
+.bottom-column .get-more {
+    width: 150px;
+    right: 10px;
+    bottom: 30px;
+}
+
+.no-blog-posts {
+    height: 80vh;
+    padding: 210px 50px 0 50px;
+}
+
+.no-blog-posts p {
+    margin: 25px;
+}
+
+.blog-body h3.visible-xs {
+    margin-left: 10px;
+}
